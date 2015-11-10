@@ -15,19 +15,19 @@ number of unread offline messages is displayed.
 Realtime messages are displayed when a user's subscription posts a message 
 when the user is logged in.
 
-1. Offline Messages
+1. Offline Messages:
 A user can see any messages that were sent when they were offline.
 
-2. Edit Subscriptions
+2. Edit Subscriptions:
 A user can add, drop and view current subscriptions.
 
-3. Post a Message
+3. Post a Message:
 A user can post a message.
 
-4. Hashtag Search
+4. Hashtag Search:
 A user can search for the last 10 tweets containing a specific hashtag. 
 
-5. Logout
+5. Logout:
 When a user logs out, their offline and realtime messages are cleared.
 
 ## Server Side
@@ -45,6 +45,8 @@ messages list.
 ## Source Files
 
 client.py - handles client side
+
 server.py - handles server side sockets
+
 helper.py - includes server's helper functions
 
